@@ -28,6 +28,6 @@ describe 'FrogJmp' do
     final_position_y = 85
     fixed_jump_d = 30
     output = 3
-    solution(initial_position_x,final_position_y,fixed_jump_d).should eq(output)
+    expect(solution(initial_position_x,final_position_y,fixed_jump_d)).to eq(output)
   end
 end
